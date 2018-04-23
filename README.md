@@ -24,15 +24,15 @@ public static IArrangement Arrange<TProxy, TReturn>(this TProxy proxy, Expressio
 ```
 
 ##### Overview
-* [What is Mocksert?](#What-Is-Mocksert)
-* [How it Works?](#How-it-Works)
-* [What it Does?](#What-it-Does)
+* [What is Mocksert?](#####What-is-Mocksert)
+* [How it Works?](#####How-it-Works)
+* [What it Does?](#####What-it-Does)
 
 ##### What is Mocksert
 What started as a spike curiosity turned into a neat example to show developers unfamiliar with mocking and the magic behind intercepting calls when testing.  It by no means is anything
 I plan on publishing as an official framework.  It only mocks interfaces and classes with virtual members, and has none of the other advanced features other simple invocations and argument passing verification.
 
-##### How it Works?
+##### How it Works
 1. First you create your proxy using an interface or a class with virtual members.
 2. Next, you expect, set up, or arrange the property or method dependency.
 3. Then, you immediately follow up with a Return extension method to specify the value that will be returned.
