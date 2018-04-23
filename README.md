@@ -4,7 +4,7 @@ Mocksert is a lightweight mocking framework illustration of Castle Project's dyn
 
 ##### Quick Peek
 ```csharp
-public static IArrangement Arrange<TProxy, TReturn>(this TProxy proxy, Expression<Func<TProxy, TReturn>> expression) where TProxy : class
+public static IArrangement Arrange<TProxy, TReturn>(this TProxy proxy, Expression<Func<TProxy, TReturn>> expression)
 {
 	IArrangement arrangement;
 
@@ -22,11 +22,6 @@ public static IArrangement Arrange<TProxy, TReturn>(this TProxy proxy, Expressio
 	return arrangement;
 }
 ```
-
-##### Overview
-* [What is Mocksert?](#####What-is-Mocksert)
-* [How it Works?](#####How-it-Works)
-* [What it Does?](#####What-it-Does)
 
 ##### What is Mocksert
 What started as a spike curiosity turned into a neat example to show developers unfamiliar with mocking and the magic behind intercepting calls when testing.  It by no means is anything
