@@ -1,6 +1,6 @@
 ### Mocksert
 
-Mocksert is a lightweight mocking framework illustration of Castle Project's dynamic proxy interception, and brief overview of alternative implementations and philosophical approaches of other mocking libraries.  This project provides a basic mocking framework to illustrate the interception of proxy mocked calls.
+Mocksert is a lightweight mocking framework illustration of Castle Project's dynamic proxy interception, and a brief overview of alternative implementations and philosophical approaches of other mocking libraries.  This project provides a basic mocking framework to illustrate the interception of proxy mocked calls.
 
 ##### Quick Peek
 ```csharp
